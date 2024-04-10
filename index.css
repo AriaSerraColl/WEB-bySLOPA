@@ -22,6 +22,11 @@ body {
     margin: 0 auto;
 
 }
+.video{
+    display: flex;
+    height: 300px;
+    width: 300px;
+}
 
 /* Estil per a l'encapçalament */
 .header {
@@ -86,14 +91,10 @@ body {
 }
 
 #imag {
-    
-    width: 700px; /* Ancho de la imagen */
-    height: auto; /* Altura ajustada automáticamente para mantener la proporción */
+    width: 300px; /* Ancho de la imagen */
+    height: 400px; /* Altura ajustada automáticamente para mantener la proporción */
 }
 
-#seccio_webapp{
-
-}
 
 /* Estil per al botó de menú en pantalles petites */
 #menu {
@@ -323,7 +324,4 @@ h2 {
     }
 
     
-}
-#seccio_video p {
-    margin-bottom:30px;  
 }
